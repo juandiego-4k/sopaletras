@@ -1,0 +1,180 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(rgb(131, 122, 105), darkorange);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+
+.body{
+    width: 60%;
+    max-width: 87.5em;
+    margin: 0 auto;
+}
+
+table td{
+    padding: 0.3125em;
+    border: 0.1px solid rgba(0, 0, 0,.5);
+    background: whitesmoke;
+}
+
+h1{
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    text-align: center;
+    font-size: 2.375rem;
+    color: blue;
+}
+
+tr{
+    text-align: center;
+}
+
+table {
+    border: 2px solid red;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+    max-width: 43.75em;
+    height: auto;
+}
+
+.Contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.P1{
+   color: rgb(141, 100, 207);
+}
+
+ul{
+    list-style-type: square;
+    font-size: 0.875rem;
+    color: white;
+    margin: 0.3125em;
+}
+
+ul li{
+    margin: 0.3125rem;
+}
+
+footer{
+    margin: 3.125em;
+    text-align: center;
+    justify-content: space-between;
+}
+.words{
+    justify-content: flex-end;
+    width: 30%;
+    max-width: 12.5em;
+    background-color: rgba(0, 0, 0,.7);
+}
+.words p{
+    color: white;
+    text-align: center;
+}
+
+a{
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+    transition: 0.5s;
+}
+a:hover {
+    border-bottom: 1px solid;
+    background: #ff5601;
+    font-size: 1.25rem;
+}  
+a:active {
+    background: #ff0000;
+    color: #ff0000;
+}
+
+a:link {
+    color: #79d5ff;
+}
+  
+a:visited {
+    color: #9dfaff;
+}
+  
+a:focus {
+    border-bottom: 1px solid;
+    background: #ff00d9;
+}
+
+
+
+
+
+
+button{
+    outline: none;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 2px;
+    transition: 0.5s;
+    background-color: grey;
+}
+button:hover {
+    
+    border-bottom: 1px solid;
+    background: #5e5cce;
+    font-size: 1.25rem;
+}  
+button:active {
+    background: #ff0101;
+    color: #ff0101;
+}
+
+button:link {
+    color: #79d5ff;
+}
+  
+button:visited {
+    color: #9dfaff;
+}
+  
+button:focus {
+    border-bottom: 1px solid;
+    background: #9dfaff;
+}
+
+@media (max-width: 576px) {
+
+    .body{
+        align-items: center;
+    }
+
+    h1{
+        font-size: 1.5em;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+    table{
+        margin-bottom: 1.25rem;
+        width: 100%;
+    }
+
+    table td{
+        font-size: 0.5em;
+    }
+
+    .words{
+        width: 100%;
+    }
+
+    .words p{
+        font-size: 0.9em;
+    }
+
+    .words li{
+        font-size: 0.75em;
+    }
+}
